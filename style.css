@@ -1,0 +1,16 @@
+.bannar-containar h1 {
+  text-align: center;
+  margin-top: 120px;
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.bannar-containar p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}

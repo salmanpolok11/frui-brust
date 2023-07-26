@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-
+<!-- css -->
+<link rel="stylesheet" href="style.css">
   <!-- font style -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,16 +47,16 @@
     </div>
     <div class="flex-1 lg:ml-40 lg space-x-3">
       <img src="./images/logo.png" alt="">
-      <h1 class="font-bold text-3xl text-white">Fruit Burst</h1>
+      <h1 class="font-bold text-3xl lg:text-white">Fruit Burst</h1>
     </div>
 
     <div class=" flex justify-around lg:w-[400px] lg:h-[56px] mr-7 bg-white 
-     rounded-full"> 
+     rounded-full">
       <div class="hidden lg:block md:block pr-40 text-base">Search here</div>
-      <div class="hidden lg:block md:block"><i class="fa-solid fa-magnifying-glass"></i> 
-       </div>
-     </div>
-  
+      <div class="hidden lg:block md:block"><i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
     <div class="">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -68,389 +69,452 @@
   </div>
 
 
-<main class="container mx-auto">
-   <!-- bannar section -->
+  <main class="container mx-auto">
+    <!-- bannar section -->
 
-   <div class="carousel w-full my-10">
-    <div id="slide1" class="carousel-item relative w-full lg:relative">
-      
-      <!-- bannar1 -->
-      <div class="hero  rounded-3xl" style="background-image: 
+    <div class="carousel w-full my-10">
+      <div id="slide1" class="carousel-item relative w-full lg:relative">
+
+        <!-- bannar1 -->
+        <div class="hero  rounded-3xl" style="background-image: 
        url(images/banner1.png);">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
-               doorstep</h1>
-            <p class="mb-5 text-white">We supply highly quality organic products</p>
-            <button class="btn btn-error text-white">Shop Now</button>
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your
+                doorstep</h1>
+              <p class="mb-5 text-white">We supply highly quality organic products</p>
+              <button class="btn btn-error text-white">Shop Now</button>
 
-            <div class="flex justify-around items-center absolute -bottom-20 left-40 
+              <div class="flex justify-around items-center absolute -bottom-20 left-40 
              right-0  w-[1196px] h-[250px]
              lg:bg-white">
-               <div class="hidden lg:block md:block">
-                <img src="./images/fruit1.png" alt="">
-                <h1 class="text-black">Strawberry</h1>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit1.png" alt="">
+                  <h1 class="text-black">Strawberry</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit2.png" alt="">
+                  <h1 class="text-black">Orange</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit3.png" alt="">
+                  <h1 class="text-black">Mango</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit4.png" alt="">
+                  <h1 class="text-black">Mango</h1>
+                </div>
               </div>
-               <div class="hidden lg:block md:block">
-                <img src="./images/fruit2.png" alt="">
-                <h1 class="text-black">Orange</h1>
+
+            </div>
+          </div>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 
+       top-1/2">
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+
+
+
+
+      <!-- bannar 2 -->
+
+
+
+      <div id="slide2" class="carousel-item relative w-full">
+        <div class="hero min-h-screen rounded-3xl" style="background-image: 
+      url(images/banner2.png);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your
+                doorstep</h1>
+              <p class="mb-5 text-white">We supply highly quality organic products</p>
+              <button class="btn btn-error text-white">Shop Now</button>
+
+              <div class="flex justify-around items-center absolute -bottom-20 left-40 
+            right-0  w-[1196px] h-[250px]
+            lg:bg-white">
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit1.png" alt="">
+                  <h1 class="text-black">Strawberry</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit2.png" alt="">
+                  <h1 class="text-black">Orange</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit3.png" alt="">
+                  <h1 class="text-black">Mango</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit4.png" alt="">
+                  <h1 class="text-black">Mango</h1>
+                </div>
               </div>
-               <div class="hidden lg:block md:block">
-                <img src="./images/fruit3.png" alt="">
-                <h1 class="text-black">Mango</h1>
+
+            </div>
+          </div>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 
+       top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+
+      <!-- bannar 3 -->
+
+
+      <div id="slide3" class="carousel-item relative w-full">
+        <div class="hero min-h-screen rounded-3xl" style="background-image: 
+      url(images/banner3.png);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your
+                doorstep</h1>
+              <p class="mb-5 text-white">We supply highly quality organic products</p>
+              <button class="btn btn-error text-white">Shop Now</button>
+
+              <div class="flex justify-around items-center absolute -bottom-20 left-40 
+            right-0  w-[1196px] h-[250px]
+            lg:bg-white">
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit1.png" alt="">
+                  <h1 class="text-black">Strawberry</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit2.png" alt="">
+                  <h1 class="text-black">Orange</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit3.png" alt="">
+                  <h1 class="text-black">Mango</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit4.png" alt="">
+                  <h1 class="text-black">Mango</h1>
+                </div>
               </div>
-               <div class="hidden lg:block md:block">
-                <img src="./images/fruit4.png" alt="">
-                <h1 class="text-black">Mango</h1>
+
+            </div>
+          </div>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 
+       top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+
+      <!-- bannar4  -->
+
+      <div id="slide4" class="carousel-item relative w-full">
+        <div class="hero min-h-screen rounded-3xl" style="background-image: 
+      url(images/banner4.png);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your
+                doorstep</h1>
+              <p class="mb-5 text-white">We supply highly quality organic products</p>
+              <button class="btn btn-error text-white">Shop Now</button>
+
+              <div class="flex justify-around items-center absolute -bottom-20 left-40 
+            right-0  w-[1196px] h-[250px]
+            lg:bg-white">
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit1.png" alt="">
+                  <h1 class="text-black">Strawberry</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit2.png" alt="">
+                  <h1 class="text-black">Orange</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit3.png" alt="">
+                  <h1 class="text-black">Mango</h1>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <img src="./images/fruit4.png" alt="">
+                  <h1 class="text-black">Mango</h1>
+                </div>
               </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 
+       top-1/2">
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- card section -->
+    <section class=" lg:my-40">
+      <div class="lg:flex justify-between">
+        <div>
+          <h1 class="font-extrabold text-4xl ">Deal of the day</h1>
+          <p class="lg:w-[610px]">Contrary to popular belief, is not simply random text. 
+             It
+            has
+            roots in a piece of classical <br> Latin literature from 45 BC, making it
+            over 2000 years .</p>
+        </div>
+
+        <div class="flex items-center my-5 gap-5">
+          <div class="border-r-2 pr-5">
+            <span class="countdown font-mono text-4xl">
+              <span style="--value:15;"></span>
+            </span>
+            <div>days</div>
+          </div>
+          <div class="border-r-2 pr-5">
+            <span class="countdown font-mono text-4xl">
+              <span style="--value:10;"></span>
+            </span>
+            <div>hours</div>
+          </div>
+          <div class="border-r-2 pr-5">
+            <span class="countdown font-mono text-4xl">
+              <span style="--value:24;"></span>
+            </span>
+            <div>min</div>
+          </div>
+          <div>
+            <span class="countdown font-mono text-4xl">
+              <span style="--value:49;"></span>
+            </span>
+            <div>sec</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- card -->
+
+      <div class="lg:flex justify-around my-10">
+
+        <!-- card 1 -->
+
+        <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+            <h1>Apples</h1>
+            <div class="rating gap-1">
+              <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" 
+               checked />
+            </div>
+            <div class="card-actions">
+              <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+            <h1>Orange</h1>
+            <div class="rating gap-1">
+              <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" 
+               checked />
+            </div>
+            <div class="card-actions">
+              <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+
+        <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+            <h1>Red Dragon</h1>
+            <div class="rating gap-1">
+              <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" 
+               checked />
+            </div>
+            <div class="card-actions">
+              <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+
+
+        <!-- card 4 -->
+
+        <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+            <h1>Banana</h1>
+            <div class="rating gap-1">
+              <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" checked />
+            </div>
+            <div class="card-actions">
+              <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+            </div>
+
+
+
+            <!-- The popup container -->
+            <div id="popupContainer" class="fixed inset-0 flex items-center justify-center bg-black 
+    bg-opacity-50 hidden">
+              <!-- Popup content -->
+
+              <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+                  <h1>Apples</h1>
+                  <div class="rating gap-1">
+                    <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+                    <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+                    <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                    <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+                    <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" checked />
+                  </div>
+                  <!-- Close button -->
+                  <button id="closePopup" class="mt-4 py-2 px-4 bg-red-500 text-white rounded-lg">Close</button>
+                </div>
+              </div>
+
+              <script>
+                // JavaScript to handle popup functionality
+                const openPopupButton = document.getElementById('openPopup');
+                const closePopupButton = document.getElementById('closePopup');
+                const popupContainer = document.getElementById('popupContainer');
+
+                // Open the popup when the "Open Popup" button is clicked
+                openPopupButton.addEventListener('click', () => {
+                  popupContainer.classList.remove('hidden');
+                });
+
+                // Close the popup when the "Close" button is clicked
+                closePopupButton.addEventListener('click', () => {
+                  popupContainer.classList.add('hidden');
+                });
+              </script>
             </div>
 
           </div>
         </div>
-      </div>
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 
-       top-1/2">
-        <a href="#slide4" class="btn btn-circle">❮</a> 
-        <a href="#slide2" class="btn btn-circle">❯</a>
-      </div>
-    </div> 
+    </section>
 
 
+    <!-- customar reviw -->
 
-
-<!-- bannar 2 -->
-
-
-
-    <div id="slide2" class="carousel-item relative w-full">
-      <div class="hero min-h-screen rounded-3xl" style="background-image: 
-      url(images/banner2.png);">
-       <div class="hero-overlay bg-opacity-60"></div>
-       <div class="hero-content text-center text-neutral-content">
-         <div class="max-w-md">
-           <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
-              doorstep</h1>
-           <p class="mb-5 text-white">We supply highly quality organic products</p>
-           <button class="btn btn-error text-white">Shop Now</button>
-
-           <div class="flex justify-around items-center absolute -bottom-20 left-40 
-            right-0  w-[1196px] h-[250px]
-            lg:bg-white">
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit1.png" alt="">
-               <h1 class="text-black">Strawberry</h1>
-             </div>
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit2.png" alt="">
-               <h1 class="text-black">Orange</h1>
-             </div>
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit3.png" alt="">
-               <h1 class="text-black">Mango</h1>
-             </div>
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit4.png" alt="">
-               <h1 class="text-black">Mango</h1>
-             </div>
-           </div>
-
-         </div>
-       </div>
-     </div>
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 
-       top-1/2">
-        <a href="#slide1" class="btn btn-circle">❮</a> 
-        <a href="#slide3" class="btn btn-circle">❯</a>
-      </div>
-    </div> 
-
-    <!-- bannar 3 -->
-
-
-    <div id="slide3" class="carousel-item relative w-full">
-      <div class="hero min-h-screen rounded-3xl" style="background-image: 
-      url(images/banner3.png);">
-       <div class="hero-overlay bg-opacity-60"></div>
-       <div class="hero-content text-center text-neutral-content">
-         <div class="max-w-md">
-           <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
-              doorstep</h1>
-           <p class="mb-5 text-white">We supply highly quality organic products</p>
-           <button class="btn btn-error text-white">Shop Now</button>
-
-           <div class="flex justify-around items-center absolute -bottom-20 left-40 
-            right-0  w-[1196px] h-[250px]
-            lg:bg-white">
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit1.png" alt="">
-               <h1 class="text-black">Strawberry</h1>
-             </div>
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit2.png" alt="">
-               <h1 class="text-black">Orange</h1>
-             </div>
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit3.png" alt="">
-               <h1 class="text-black">Mango</h1>
-             </div>
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit4.png" alt="">
-               <h1 class="text-black">Mango</h1>
-             </div>
-           </div>
-
-         </div>
-       </div>
-     </div>
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 
-       top-1/2">
-        <a href="#slide2" class="btn btn-circle">❮</a> 
-        <a href="#slide4" class="btn btn-circle">❯</a>
-      </div>
-    </div> 
-
-<!-- bannar4  -->
-
-    <div id="slide4" class="carousel-item relative w-full">
-      <div class="hero min-h-screen rounded-3xl" style="background-image: 
-      url(images/banner4.png);">
-       <div class="hero-overlay bg-opacity-60"></div>
-       <div class="hero-content text-center text-neutral-content">
-         <div class="max-w-md">
-           <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
-              doorstep</h1>
-           <p class="mb-5 text-white">We supply highly quality organic products</p>
-           <button class="btn btn-error text-white">Shop Now</button>
-
-           <div class="flex justify-around items-center absolute -bottom-20 left-40 
-            right-0  w-[1196px] h-[250px]
-            lg:bg-white">
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit1.png" alt="">
-               <h1 class="text-black">Strawberry</h1>
-             </div>
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit2.png" alt="">
-               <h1 class="text-black">Orange</h1>
-             </div>
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit3.png" alt="">
-               <h1 class="text-black">Mango</h1>
-             </div>
-              <div class="hidden lg:block md:block">
-               <img src="./images/fruit4.png" alt="">
-               <h1 class="text-black">Mango</h1>
-             </div>
-           </div>
-
-         </div>
-       </div>
-     </div>
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 
-       top-1/2">
-        <a href="#slide3" class="btn btn-circle">❮</a> 
-        <a href="#slide1" class="btn btn-circle">❯</a>
-      </div>
-    </div>
-  </div>
-  
-
-  <!-- card section -->
-<section class=" lg:my-40">
-  <div class="lg:flex justify-between">
-       <div>
-         <h1 class="font-extrabold text-4xl ">Deal of the day</h1>
-         <p class="lg:w-[610px]">Contrary to popular belief, is not simply random text. It 
-           has 
-           roots in a piece of classical <br> Latin literature from 45 BC, making it   
-            over   2000   years  .</p>
-       </div>
-
-       <div class="flex items-center my-5 gap-5">
-        <div class="border-r-2 pr-5">
-          <span class="countdown font-mono text-4xl">
-            <span style="--value:15;"></span>
-          </span>
-          <div>days</div>
-        </div> 
-        <div class="border-r-2 pr-5">
-          <span class="countdown font-mono text-4xl">
-            <span style="--value:10;"></span>
-          </span>
-          <div>hours</div>
-        </div> 
-        <div class="border-r-2 pr-5">
-          <span class="countdown font-mono text-4xl">
-            <span style="--value:24;"></span>
-          </span>
-          <div>min</div>
-        </div> 
-        <div >
-          <span class="countdown font-mono text-4xl">
-            <span style="--value:49;"></span>
-          </span>
-          <div>sec</div>
-        </div>
-      </div>
-  </div>
-
-<!-- card -->
-
-<div class="lg:flex justify-around my-10">
-
-  <!-- card 1 -->
-      
-<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
-  <figure class="px-10 pt-10">
-    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
-  </figure>
-  <div class="card-body items-center text-center">
-    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
-    <h1>Apples</h1>
-    <div class="rating gap-1">
-      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
-    </div>
-    <div class="card-actions">
-      <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
-    </div>
-  </div>
-</div>
-
-  <!-- card 2 -->
-      
-<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
-  <figure class="px-10 pt-10">
-    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
-  </figure>
-  <div class="card-body items-center text-center">
-    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
-    <h1>Apples</h1>
-    <div class="rating gap-1">
-      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
-    </div>
-    <div class="card-actions">
-      <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
-    </div>
-  </div>
-</div>
-
-  <!-- card 3 -->
-      
-<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
-  <figure class="px-10 pt-10">
-    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
-  </figure>
-  <div class="card-body items-center text-center">
-    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
-    <h1>Apples</h1>
-    <div class="rating gap-1">
-      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
-    </div>
-    <div class="card-actions">
-      <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
-    </div>
-
-    
-
-
-  </div>
-</div>
-
-
-
-  <!-- card 4 -->
-      
-<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
-  <figure class="px-10 pt-10">
-    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
-  </figure>
-  <div class="card-body items-center text-center">
-    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
-    <h1>Apples</h1>
-    <div class="rating gap-1">
-      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
-    </div>
-    <div class="card-actions">
-      <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
-    </div>
-
-
-
-    <!-- The popup container -->
-   <div id="popupContainer" class="fixed inset-0 flex items-center justify-center bg-black 
-    bg-opacity-50 hidden">
-    <!-- Popup content -->
+     <section class="bannar-containar">
+    <div class="hero containar  relative"  style="background-image: 
+     url('./images/banner1.png');">
+    <div class="hero-overlay bg-opacity-60">
+   
+      <div class="text-center space-y-10">
         
-<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
-  <figure class="px-10 pt-10">
-    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
-  </figure>
-  <div class="card-body items-center text-center">
-    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
-    <h1>Apples</h1>
-    <div class="rating gap-1">
-      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
-      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
+   <h1>Meet the team section</h1>
+   <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
+      Latin 
+     literature from 45 BC, making it over 2000 years old.</p>
+      </div>
+
+      <div class="lg:flex lg:justify-center items-center space-y-10 space-x-20 lg:text-center mt-10">
+           <div class="pt-10 pl-20">
+                <img src="./images/member1.png" alt="">
+                <p>Awlad Hossain</p>
+                <p>Fruits Expert</p>
+                <div class="text-orange-400 text-2xl">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+           </div>
+           <div>
+                <img src="./images/member2.png" alt="">
+                <p>Safia Chowdhury</p>
+                <p>Fruits Expert</p>
+                <div class="text-orange-400 text-2xl">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+           </div>
+           <div>
+                <img src="./images/member3.png" alt="">
+                <p>Rokib Hossain</p>
+                <p>Fruits Expert</p>
+                <div class="text-orange-400 text-2xl">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+           </div>
+           <div>
+                <img src="./images/member4.png" alt="">
+                <p>Chaity</p>
+                <p>Fruits Expert</p>
+                <div class="text-orange-400 text-2xl">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+           </div>
+      </div>
+
+
+
     </div>
-      <!-- Close button -->
-      <button id="closePopup" class="mt-4 py-2 px-4 bg-red-500 text-white rounded- 
-       lg">Close</button>
-    </div>
-  </div>
-
-  <script>
-    // JavaScript to handle popup functionality
-    const openPopupButton = document.getElementById('openPopup');
-    const closePopupButton = document.getElementById('closePopup');
-    const popupContainer = document.getElementById('popupContainer');
-
-    // Open the popup when the "Open Popup" button is clicked
-    openPopupButton.addEventListener('click', () => {
-      popupContainer.classList.remove('hidden');
-    });
-
-    // Close the popup when the "Close" button is clicked
-    closePopupButton.addEventListener('click', () => {
-      popupContainer.classList.add('hidden');
-    });
-  </script>
-
-
-
-  </div>
-</div>
-
-
-
-</div>
-</section>
+    </div> 
+   </section>
 
 
 
 
 
 
-</main>
+  </main>
 
 
 
