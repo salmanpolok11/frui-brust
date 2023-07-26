@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fruit Burst</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/fruit7.png" type="image/x-icon">
 <!-- css -->
 <link rel="stylesheet" href="style.css">
   <!-- font style -->
@@ -319,7 +321,39 @@
                checked />
             </div>
             <div class="card-actions">
-              <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+              <div class="card-actions">
+                <!-- Open the modal using ID.showModal() method -->
+    <button class="text-red-600" onclick="my_modal_5.showModal()">Details</button>
+    <dialog id="my_modal_5" class="modal">
+      <form method="dialog" class="">
+        
+        <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+            <h1>Apples</h1>
+            <div class="rating gap-1">
+              <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" 
+               checked />
+            </div>
+    
+    
+       
+        <div class="modal-action">
+          <!-- if there is a button in form, it will close the modal -->
+          <button class="btn">Close</button>
+          <button class="btn btn-error text-white">Buy Now</button>
+        </div>
+      </form>
+    </dialog>
+    </div>
+    
             </div>
           </div>
         </div>
@@ -342,7 +376,37 @@
                checked />
             </div>
             <div class="card-actions">
-              <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+              <div class="card-actions">
+                <!-- Open the modal using ID.showModal() method -->
+    <button class="text-red-500" onclick="my_modal_3.showModal()">Details</button>
+    <dialog id="my_modal_3" class="modal">
+      <form method="dialog" class="">
+      
+        <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+            <h1>Orange</h1>
+            <div class="rating gap-1">
+              <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" 
+               checked />
+            </div>
+       
+        <div class="modal-action">
+          <!-- if there is a button in form, it will close the modal -->
+          <button class="btn">Close</button>
+          <button class="btn btn-error text-white">Buy Now</button>
+        </div>
+      </form>
+    </dialog>
+    </div>
+    
             </div>
           </div>
         </div>
@@ -365,8 +429,36 @@
                checked />
             </div>
             <div class="card-actions">
-              <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
-            </div>
+            <!-- Open the modal using ID.showModal() method -->
+<button class="text-red-700" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_4" class="modal">
+  <form method="dialog" class="">
+
+    <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+      <figure class="px-10 pt-10">
+        <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+        <h1>Red Dragon</h1>
+        <div class="rating gap-1">
+          <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+          <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+          <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+          <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+          <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" 
+           checked />
+        </div>
+
+   
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn">Close</button>
+      <button class="btn btn-error text-white">Buy Now</button>
+    </div>
+  </form>
+</dialog>
+</div>
 
 
 
@@ -378,7 +470,7 @@
 
         <!-- card 4 -->
 
-        <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+         <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
           </figure>
@@ -392,57 +484,43 @@
               <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
               <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" checked />
             </div>
+
             <div class="card-actions">
-              <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
-            </div>
-
-
-
-            <!-- The popup container -->
-            <div id="popupContainer" class="fixed inset-0 flex items-center justify-center bg-black 
-    bg-opacity-50 hidden">
-              <!-- Popup content -->
-
-              <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
-                  <h1>Apples</h1>
-                  <div class="rating gap-1">
-                    <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
-                    <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
-                    <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
-                    <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
-                    <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" checked />
-                  </div>
-                  <!-- Close button -->
-                  <button id="closePopup" class="mt-4 py-2 px-4 bg-red-500 text-white rounded-lg">Close</button>
-                </div>
-              </div>
-
-              <script>
-                // JavaScript to handle popup functionality
-                const openPopupButton = document.getElementById('openPopup');
-                const closePopupButton = document.getElementById('closePopup');
-                const popupContainer = document.getElementById('popupContainer');
-
-                // Open the popup when the "Open Popup" button is clicked
-                openPopupButton.addEventListener('click', () => {
-                  popupContainer.classList.remove('hidden');
-                });
-
-                // Close the popup when the "Close" button is clicked
-                closePopupButton.addEventListener('click', () => {
-                  popupContainer.classList.add('hidden');
-                });
-              </script>
-            </div>
-
-          </div>
+              <!-- Open the modal using ID.showModal() method -->
+    <button class="text-red-600" onclick="my_modal_1.showModal()">Details</button>
+    <dialog id="my_modal_1" class="modal">
+     <form method="dialog" class="">
+  
+    <div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+      <figure class="px-10 pt-10">
+        <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+        <h1>Banana</h1>
+        <div class="rating gap-1">
+          <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+          <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+          <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+          <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+          <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" checked />
         </div>
-    </section>
+    
+
+    <div class="">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn text-center">Close</button>
+      <button class="btn btn-error text-white">Buy Now</button>
+    </div>
+  </form>
+</dialog>
+</div>      
+</div>
+
+
+
+</section>
+
 
 
     <!-- customar reviw -->
@@ -649,15 +727,6 @@
     </div>
   </div>
 </footer>
-
-
-
-
-
-
-
-
-
 
 </body>
 
