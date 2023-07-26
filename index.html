@@ -72,10 +72,10 @@
    <!-- bannar section -->
 
    <div class="carousel w-full my-10">
-    <div id="slide1" class="carousel-item relative w-full relative">
+    <div id="slide1" class="carousel-item relative w-full lg:relative">
       
       <!-- bannar1 -->
-      <div class="hero min-h-screen" style="background-image: 
+      <div class="hero  rounded-3xl" style="background-image: 
        url(images/banner1.png);">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
@@ -83,7 +83,7 @@
             <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
                doorstep</h1>
             <p class="mb-5 text-white">We supply highly quality organic products</p>
-            <button class="btn btn-primary text-white">Shop Now</button>
+            <button class="btn btn-error text-white">Shop Now</button>
 
             <div class="flex justify-around items-center absolute -bottom-20 left-40 
              right-0  w-[1196px] h-[250px]
@@ -100,7 +100,7 @@
                 <img src="./images/fruit3.png" alt="">
                 <h1 class="text-black">Mango</h1>
               </div>
-               <div>
+               <div class="hidden lg:block md:block">
                 <img src="./images/fruit4.png" alt="">
                 <h1 class="text-black">Mango</h1>
               </div>
@@ -124,7 +124,7 @@
 
 
     <div id="slide2" class="carousel-item relative w-full">
-      <div class="hero min-h-screen" style="background-image: 
+      <div class="hero min-h-screen rounded-3xl" style="background-image: 
       url(images/banner2.png);">
        <div class="hero-overlay bg-opacity-60"></div>
        <div class="hero-content text-center text-neutral-content">
@@ -132,7 +132,7 @@
            <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
               doorstep</h1>
            <p class="mb-5 text-white">We supply highly quality organic products</p>
-           <button class="btn btn-primary text-white">Shop Now</button>
+           <button class="btn btn-error text-white">Shop Now</button>
 
            <div class="flex justify-around items-center absolute -bottom-20 left-40 
             right-0  w-[1196px] h-[250px]
@@ -149,7 +149,7 @@
                <img src="./images/fruit3.png" alt="">
                <h1 class="text-black">Mango</h1>
              </div>
-              <div>
+              <div class="hidden lg:block md:block">
                <img src="./images/fruit4.png" alt="">
                <h1 class="text-black">Mango</h1>
              </div>
@@ -169,7 +169,7 @@
 
 
     <div id="slide3" class="carousel-item relative w-full">
-      <div class="hero min-h-screen" style="background-image: 
+      <div class="hero min-h-screen rounded-3xl" style="background-image: 
       url(images/banner3.png);">
        <div class="hero-overlay bg-opacity-60"></div>
        <div class="hero-content text-center text-neutral-content">
@@ -177,7 +177,7 @@
            <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
               doorstep</h1>
            <p class="mb-5 text-white">We supply highly quality organic products</p>
-           <button class="btn btn-primary text-white">Shop Now</button>
+           <button class="btn btn-error text-white">Shop Now</button>
 
            <div class="flex justify-around items-center absolute -bottom-20 left-40 
             right-0  w-[1196px] h-[250px]
@@ -194,7 +194,7 @@
                <img src="./images/fruit3.png" alt="">
                <h1 class="text-black">Mango</h1>
              </div>
-              <div>
+              <div class="hidden lg:block md:block">
                <img src="./images/fruit4.png" alt="">
                <h1 class="text-black">Mango</h1>
              </div>
@@ -213,7 +213,7 @@
 <!-- bannar4  -->
 
     <div id="slide4" class="carousel-item relative w-full">
-      <div class="hero min-h-screen" style="background-image: 
+      <div class="hero min-h-screen rounded-3xl" style="background-image: 
       url(images/banner4.png);">
        <div class="hero-overlay bg-opacity-60"></div>
        <div class="hero-content text-center text-neutral-content">
@@ -221,7 +221,7 @@
            <h1 class="mb-5 text-5xl font-bold text-[#fff]">Exotic tastes at your 
               doorstep</h1>
            <p class="mb-5 text-white">We supply highly quality organic products</p>
-           <button class="btn btn-primary text-white">Shop Now</button>
+           <button class="btn btn-error text-white">Shop Now</button>
 
            <div class="flex justify-around items-center absolute -bottom-20 left-40 
             right-0  w-[1196px] h-[250px]
@@ -238,7 +238,7 @@
                <img src="./images/fruit3.png" alt="">
                <h1 class="text-black">Mango</h1>
              </div>
-              <div>
+              <div class="hidden lg:block md:block">
                <img src="./images/fruit4.png" alt="">
                <h1 class="text-black">Mango</h1>
              </div>
@@ -254,10 +254,203 @@
       </div>
     </div>
   </div>
+  
+
+  <!-- card section -->
+<section class=" lg:my-40">
+  <div class="lg:flex justify-between">
+       <div>
+         <h1 class="font-extrabold text-4xl ">Deal of the day</h1>
+         <p class="lg:w-[610px]">Contrary to popular belief, is not simply random text. It 
+           has 
+           roots in a piece of classical <br> Latin literature from 45 BC, making it   
+            over   2000   years  .</p>
+       </div>
+
+       <div class="flex items-center my-5 gap-5">
+        <div class="border-r-2 pr-5">
+          <span class="countdown font-mono text-4xl">
+            <span style="--value:15;"></span>
+          </span>
+          <div>days</div>
+        </div> 
+        <div class="border-r-2 pr-5">
+          <span class="countdown font-mono text-4xl">
+            <span style="--value:10;"></span>
+          </span>
+          <div>hours</div>
+        </div> 
+        <div class="border-r-2 pr-5">
+          <span class="countdown font-mono text-4xl">
+            <span style="--value:24;"></span>
+          </span>
+          <div>min</div>
+        </div> 
+        <div >
+          <span class="countdown font-mono text-4xl">
+            <span style="--value:49;"></span>
+          </span>
+          <div>sec</div>
+        </div>
+      </div>
+  </div>
+
+<!-- card -->
+
+<div class="lg:flex justify-around my-10">
+
+  <!-- card 1 -->
+      
+<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+    <h1>Apples</h1>
+    <div class="rating gap-1">
+      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
+    </div>
+    <div class="card-actions">
+      <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+    </div>
+  </div>
+</div>
+
+  <!-- card 2 -->
+      
+<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+    <h1>Apples</h1>
+    <div class="rating gap-1">
+      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
+    </div>
+    <div class="card-actions">
+      <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+    </div>
+  </div>
+</div>
+
+  <!-- card 3 -->
+      
+<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+    <h1>Apples</h1>
+    <div class="rating gap-1">
+      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
+    </div>
+    <div class="card-actions">
+      <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+    </div>
+
+    
+
+
+  </div>
+</div>
+
+
+
+  <!-- card 4 -->
+      
+<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+    <h1>Apples</h1>
+    <div class="rating gap-1">
+      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
+    </div>
+    <div class="card-actions">
+      <p id="openPopup" class="text-purple-400 cursor-pointer">Details</p>
+    </div>
+
+
+
+    <!-- The popup container -->
+   <div id="popupContainer" class="fixed inset-0 flex items-center justify-center bg-black 
+    bg-opacity-50 hidden">
+    <!-- Popup content -->
+        
+<div class="card w-[342px] h-[400px] my-10 bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title border-b-2 ">12.90$ - 18.85$</h2>
+    <h1>Apples</h1>
+    <div class="rating gap-1">
+      <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+      <input type="radio" name="rating-3" class="mask mask-heart bg-green-400"  checked/>
+    </div>
+      <!-- Close button -->
+      <button id="closePopup" class="mt-4 py-2 px-4 bg-red-500 text-white rounded- 
+       lg">Close</button>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript to handle popup functionality
+    const openPopupButton = document.getElementById('openPopup');
+    const closePopupButton = document.getElementById('closePopup');
+    const popupContainer = document.getElementById('popupContainer');
+
+    // Open the popup when the "Open Popup" button is clicked
+    openPopupButton.addEventListener('click', () => {
+      popupContainer.classList.remove('hidden');
+    });
+
+    // Close the popup when the "Close" button is clicked
+    closePopupButton.addEventListener('click', () => {
+      popupContainer.classList.add('hidden');
+    });
+  </script>
+
+
+
+  </div>
+</div>
+
+
+
+</div>
+</section>
+
+
+
+
 
 
 </main>
-
 
 
 
